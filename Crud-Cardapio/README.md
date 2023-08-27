@@ -1,8 +1,5 @@
 # React + Vite
+Para criaçaõ do banco de dados foi utilizado o MySQL, e os bancos estão na pasta "Bancos de dados" 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Para rodar o Back-end entrar na pasta service e utilizar o comando nodemon index.js
+Para rodar o front-end entrar na pasta Crud-cardapio e utilizar o comando npm run dev
