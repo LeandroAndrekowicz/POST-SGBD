@@ -11,7 +11,7 @@ app.use(cors());
 var bd = createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'nene2023',
+    password: 'root',
     database: 'cardapio'
 })
 
@@ -43,8 +43,9 @@ app.get('/cardapio/:id', (req, res) =>{
     });
 });
 
-app.post('/adicionar', (req, res) =>{
+app.post('/adicionar/', (req, res) =>{
     let {lanches, valor} = req.body;
+    console.log(lanches, valor);
     let SQL = 'INSERT INTO cardapio (lanches, valor) VALUES (?, ?)';
 
     bd.query(SQL, [lanches, valor], (err, result) =>{

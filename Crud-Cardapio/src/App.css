@@ -1,0 +1,97 @@
+.container-principal{
+    width: 100%;
+    display: block;
+    align-content: center;
+    background: #363434; 
+    padding: 0;
+    border: none;
+}
+
+.container-inputs{
+    display: block;
+    width: 100%;
+    justify-content: center;
+    text-align: -webkit-center;
+}
+
+.card{
+	background: #5c5757; 
+    justify-content: center;
+    width: 50%;
+    display: flex;
+    border-radius: 2em;
+    padding: 2em;
+}
+
+.card input{
+    background: #888787; 
+    color: white;
+    width: 200px;
+    padding: 1em;
+    border-radius: 1em;
+    text-align: center;
+}
+.card input::placeholder {
+    color: white;
+}
+
+.container-produtos{
+    width: 100%;
+    align-content: center;
+    text-align: center;
+}
+
+.container-inputs button{
+    padding: 1em 3em;
+    color: white;
+    background-color: #363434;
+    border-radius: 1em;
+    margin: 10px;
+}
+
+.card {
+    align-items: center;
+    border-radius: 10px;
+    border: #4a4a48; ;
+    box-shadow: 0px 0px 10px #4a4a48; ;
+    display: flex;
+    justify-content: center;
+    min-height: 200px;
+    width: 300px;
+    height: 300px;
+    flex-direction: column;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    align-content: center;
+}
+.flex{
+    display: inline-grid;
+    margin: 1em;
+}
+
+.card-produto{
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, 300px);
+    place-content: center;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 3em;
+}
+
+.botoes button{
+    padding: 1em 3em;
+    color: white;
+    background-color: #363434;
+    border-radius: 1em;
+    margin: 10px;
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+
+.nice {
+    color: lime;
+}
